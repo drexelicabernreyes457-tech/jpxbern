@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JPXBern Portfolio</title>
+</head>
+<body>
+    <h1>Team Portfolio</h1>
+
+    {% for member in team %}
+        <p><strong>{{ member.name }}</strong> — {{ member.role }}</p>
+    {% endfor %}
+</body>
+</html>
